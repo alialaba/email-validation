@@ -5,20 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Validation</title>
-    <!-- custom css -->
-    <link rel="stylesheet" href="/assset/index.css">
+    <title>Email Template</title>
+    <!-- Tailwind -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- fontawesome link -->
     <script src="https://kit.fontawesome.com/76ab3948f6.js" crossorigin="anonymous"></script>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        :root {
+            --main-blue-clr: #236ADC;
+            --white-clr: #fff;
+            --gray-clr: #E5E5E5;
+
+        }
+
+
+        .email-container {
+            width: 90%;
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+            background: lightcoral;
+
+            border-collapse: collapse;
+            border-spacing: 0;
+            /* padding: 0;
+            width: inherit; */
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <div class="container"><img src="/assset/img/whiteLogo.png" alt="logo"></div>
-    </header>
 
-    <section>
+
+    <!-- <section>
         <div class="container">
             <div class="message">
                 <h1 class="message-title">Peyton,you're almost registered!</h1>
@@ -30,9 +59,9 @@
             <p class="message-note">if you have not registered on our website, please ignore this message</p>
 
         </div>
-    </section>
+    </section> -->
 
-    <footer>
+    <!-- <footer>
         <div class="container">
             <ul class="social-icon">
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -41,7 +70,25 @@
                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             </ul>
         </div>
-    </footer>
+    </footer> -->
+    <table class="email-container border-0">
+        <!-- Logo -->
+        <tr class="info-1">
+            <td class="logo flex justify-center">
+                <a href="#" class="p-2">
+                    <img src="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-white.png"
+                        alt="logo-img">
+                </a>
+            </td>
+        </tr>
+
+        <!-- Header -->
+        <tr>
+            <td class="header">
+                Explore responsive email templates
+            </td>
+        </tr>
+    </table>
 
 </body>
 
