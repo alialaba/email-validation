@@ -22,8 +22,6 @@
         }
 
 
-        /* :root {} */
-
         table {
             border-collapse: collapse;
         }
@@ -32,145 +30,198 @@
             max-width: 100%;
         }
 
-        .email-container {
-            width: 90%;
-            max-width: 700px;
-            margin: 0 auto;
+        a.white-btn {
+            display: inline-block;
+            margin-bottom: 30px;
+            border: 1px solid blue;
+            background: transparent;
+            padding: 11px 38px;
+            /* font-size: .9rem; */
+            color: blue;
+            text-decoration: none;
             text-align: center;
+            border-radius: 3px;
+        }
 
-            background: rgba(0, 0, 0, .05);
-            border-collapse: collapse;
-            border-spacing: 0;
+        p#banner-txt {
+            width: 450px;
+            padding: 2em;
+        }
 
+        #social-icons {
+            width: 28%;
         }
     </style>
 </head>
 
-<body class="py-6">
+<body>
+    <table cellpadding="0" cellspacing="0" width="100%" align="center" style=" margin-top: 2em; padding: 2em;">
+
+        <!-- Start Header-->
+        <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="border-complete deviceWidth"
+            style="margin: 0 auto; ">
+            <tr>
+                <td width="100%">
+                    <!-- Logo -->
+                    <table border="0" cellpadding="0" cellspacing="0" width="600" bgcolor="#e9e9e9" class="deviceWidth">
+                        <tr>
+                            <td id="logo" align="center" style="margin: 0 auto;  padding: 14px 0;">
+                                <a href="#"><img
+                                        src="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-white.png"
+                                        alt="" border="0" /></a>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom:1px solid lightgray; border-top: 1px solid lightgray; ">
+                            <td class="header-title text-lg lg:text-2xl  text-blue-500 bold p-4" align="center">
+                                <h1>Welcome to Notifly</h1>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- End Logo -->
+                </td>
+            </tr>
+        </table>
+
+        <!-- End Header -->
+
+        <!-- Image Banner -->
+        <table width="600" class="border-lr deviceWidth" border="0" cellpadding="0" cellspacing="0" align="center"
+            bgcolor="" style="margin: 0 auto; ">
+            <tr>
+                <td>
+
+                    <a href="https://ibb.co/PCNxc0H" width="400"><img class="deviceWidth"
+                            src="https://i.ibb.co/x5Dh1dT/jsw-header-illustrations-v3.png"
+                            alt="jsw-header-illustrations-v3" border="0"></a>
+                </td>
+            </tr>
+
+        </table>
+        <!-- End Image Banner -->
+
+        <!-- Banner Text -->
+        <table width="600" height="108" border="0" cellpadding="0" cellspacing="0" align="center"
+            class="border-lr deviceWidth" style="margin: 0 auto;">
+
+            <tr>
+
+                <td align="center">
+                    <p id="banner-name" style="margin-top: 2em;">Aliaba</p>
+                    <p id="banner-txt" class="text-sm lg:text-lg">Congratulations! You're almost set to start using
+                        Notifly.
+                        Just click the button below to validate your email address.</p>
+                    <a href="#" class="white-btn" align="center">
+                        EXPLORE MORE </a>
+                </td>
+            </tr>
 
 
+        </table>
+        <!-- End of Banner Text -->
 
+        <!-- Our Products -->
+        <!-- <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="border-lr deviceWidth"
+            bgcolor="#ccc" style="margin: 0 auto;">
+            <tr>
+                <td align="center">
+                    <h2 id="our-products" class="">Our Products </h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="center">
 
-    <table class="email-container border-0 ">
-        <!-- Logo -->
-        <tr class="info-1">
-            <td class="logo flex justify-center bg-red">
-                <a href="#" class="p-2">
-                    <img src="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-white.png"
-                        alt="logo-img" class="w-24">
-                </a>
-            </td>
-        </tr>
+                    <table width="48%" border="0" cellpadding="0" cellspacing="0" align="left" class="deviceWidth">
 
-        <!-- Header -->
-        <tr>
-            <td class="header-title text-lg lg:text-2xl uppercase text-red-600 bold">
-                Explore responsive email templates
-            </td>
-        </tr>
-        <!--sub Header -->
-        <tr>
-            <td class="header-subtitle text-sm">
-                Your number one speed database....
-            </td>
-        </tr>
-        <!-- Hero image -->
-        <tr>
-            <td class="hero-img flex justify-center p-8">
-                <a href="#">
-                    <img src="https://raw.githubusercontent.com/konsav/email-templates/master/images/logo-white.png"
-                        alt="hero-img" class="w-96">
-                </a>
-            </td>
-        </tr>
-        <!-- Hero text -->
-        <tr>
-            <td class="hero-text w-32 px-6 md:px-36 lg:px-28 py-2  leading-5 ">
-                More than 50% of total email opens occurred on a mobile device — a mobile-friendly design is a must for
-                email campaigns.
-            </td>
-        </tr>
-        <!-- Button -->
-        <tr>
-            <td class="p-4">
-                <a href="#"
-                    class="hero-btn bg-white hover:bg-gray-100 font-semibold py-2 px-12 border-red-600 rounded shadow ">
-                    Explore More
-                </a>
-            </td>
-        </tr>
-        <!-- floater -->
-        <tr>
-            <td style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 10px; padding-right: 10px;"
-                class="floaters">
-                <table width="280" cellpadding="0" cellspacing="0"
-                    style="border-collapse:  0pt; border-spacing: 0; margin: 0; padding: 0; display: inline-table; float: none;"
-                    class="floater">
-                    <tr>
-                        <td style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 15px; padding-right: 15px; font-size: 17px; font-weight: 400; line-height: 160%;
-        			padding-top: 30px; 
-        			font-family: sans-serif;
-        			color: #000000;"><a target="_blank" style="text-decoration: none;
-        			font-size: 17px; line-height: 160%;" href="https://github.com/konsav/email-templates"><img vspace="0"
-                                    hspace="0"
-                                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/hero-grid.png"
-                                    width="250" height="142" alt="Grid Item" title="Grid Item"
-                                    style="
-        			color: #000000; font-size: 10px; margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-bottom: 8px;" />
-                                <b style="color:#0B5073; text-decoration: underline;">Gerenal template</b></a><br />
-                            The&nbsp;perfect choice for any purpose of a&nbsp;message.
-                        </td>
-                    </tr>
-                </table>
-                <table width="280" cellpadding="0" cellspacing="0" valign="top"
-                    style="border-collapse: collapse;  border-spacing: 0; margin: 0; padding: 0; display: inline-table; float: none;"
-                    class="floater">
-                    <tr>
-                        <td valign="top" style="border-collapse: collapse; border-spacing: 0; margin: 0; padding: 0; padding-left: 15px; padding-right: 15px; font-size: 17px; font-weight: 400; line-height: 160%;
-        			padding-top: 30px; 
-        			font-family: sans-serif;
-        			color: #000000;"><a target="_blank" style="text-decoration: none;
-        			font-size: 17px; line-height: 160%;" href="https://github.com/konsav/email-templates"><img border="0"
-                                    vspace="0" hspace="0"
-                                    src="https://raw.githubusercontent.com/konsav/email-templates/master/images/hero-grid.png"
-                                    width="250" height="142" alt="Grid Item" title="Grid Item"
-                                    style="
-        			color: #000000; font-size: 10px; margin: 0; padding: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-bottom: 8px;" />
-                                <b style="color:#0B5073; text-decoration: underline;">Transactional
-                                    template</b></a><br />
-                            The&nbsp;one with an&nbsp;action button seen without scrolling.
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-        <!-- Social Icons -->
+                        <tr>
+                            <td align="center">
+                                <h3 class="our-products">Product No. 1 </h3>
+                                <a href="#"><img width="262"
+                                        src="http://1stwebdesigner.com/demos/responsive-email-template/img/image1.jpg"
+                                        alt="" border="0" class="deviceWidth" /></a>
+                                </p>
+                                <p class="our-products"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </td>
+                        </tr>
 
+                    </table>
 
-        <tr>
-        <tr>
-            <td>
-                <a href="#" class="border-2 "><i class="fab fa-twitter"></i></a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="#"><i class="fab fa-facebook-f "></i></a>
-            </td>
-        </tr>
+                    <table width="48%" border="0" cellpadding="0" cellspacing="0" align="right" class="deviceWidth">
+                        <tr>
+                            <td align="center">
+                                <h3 class="our-products">Product No. 2 </h3>
+                                <a href="#"><img width="262"
+                                        src="http://1stwebdesigner.com/demos/responsive-email-template/img/image1.jpg"
+                                        alt="" border="0" class="deviceWidth" /></a>
+                                </p>
+                                <p class="our-products"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </td>
+                        </tr>
 
-        <tr>
-            <td>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </td>
-        </tr>
-        <td>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </td>
-        </tr>
+                    </table>
 
+                </td>
+            </tr>
+        </table> -->
+        <!-- End of Our Products -->
+
+        <!-- Footer -->
+        <table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="border-complete deviceWidth"
+            bgcolor="#eeeeed" style="margin: 0 auto; padding: 4em;">
+            <tr>
+                <td align="center" valign="top" id="socials">
+                    <table id="social-icons" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <a href="#"><img
+                                        src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/facebook.png"
+                                        width="32" height="32" style="display:block;" /></a>
+                            </td>
+                            <td>
+                                <a href="#"><img
+                                        src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/twitter.png"
+                                        width="32" height="32" style="display:block;" /></a>
+                            </td>
+                            <td>
+                                <a href="#"><img
+                                        src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/googleplus.png"
+                                        width="32" height="32" style="display:block;" /></a>
+                            </td>
+                            <td>
+                                <a href="#"><img
+                                        src="https://raw.githubusercontent.com/konsav/email-templates/master/images/social-icons/instagram.png"
+                                        width="32" height="32" style="display:block;" /></a>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">
+                    <p id="footer-txt"> <b>&copy; Notifly
+                            <script>document.write(new Date().getFullYear())</script>
+                            , All Rights reserved.
+                        </b>
+                        <br /> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <!-- End of Footer-->
 
     </table>
+    <!-- End wrapper -->
 
 </body>
 
